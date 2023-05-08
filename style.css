@@ -4,7 +4,8 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: brown;
+    background-image: url("./img/background.jpg");
+    object-fit: cover;
 }
 .container{
     margin: auto;
@@ -15,9 +16,8 @@ body{
     align-items: center;
 }
 #canvas{
-    background-color: white;
-    width: 500px;
-    height: 500px;
+    background-color: #ffffff;
+    margin-bottom: 12px;
 }
 .options{
     background-color: rgb(27, 91, 121);
@@ -32,4 +32,16 @@ body{
 }
 #input-color{
     width: 100px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        vertical-align: middle;
+    }
+    .options{
+        width: 350px;
+        margin: auto;
+    }
 }
