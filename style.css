@@ -6,6 +6,9 @@ body{
     justify-content: center;
     background-image: url("./img/background.jpg");
     object-fit: cover;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .container{
     margin: auto;
